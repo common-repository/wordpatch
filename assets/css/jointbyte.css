@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'jointbyte';
+    src:  url('../fonts/jointbyte.eot');
+    src:  url('../fonts/jointbyte.eot?60b22i#iefix') format('embedded-opentype'),
+    url('../fonts/jointbyte.ttf?60b22i') format('truetype'),
+    url('../fonts/jointbyte.woff?60b22i') format('woff'),
+    url('../fonts/jointbyte.svg?60b22i#jointbyte') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="jb-icon-"], [class*=" jb-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'jointbyte' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.jb-icon-wordpatch:before {
+    content: "\e900";
+}
